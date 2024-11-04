@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3457726687832376146
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8797897825450001768}
+  - component: {fileID: 5553195585936284309}
+  - component: {fileID: 2491998428810641441}
+  - component: {fileID: 6918096152391603755}
+  m_Layer: 0
+  m_Name: SceneManager_Mobile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8797897825450001768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457726687832376146}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.1013794, y: -259.54633, z: -301.33746}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5553195585936284309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457726687832376146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a133872be5932a6418af59bb37ebc5e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InfoScene: {fileID: 0}
+  ConcertScene: {fileID: 0}
+  SeminarScene: {fileID: 0}
+  ExhibitionScene: {fileID: 0}
+  HallInformation: {fileID: 0}
+  Charts: {fileID: 0}
+--- !u!114 &2491998428810641441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457726687832376146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bee3196d453ee9847b9ef0c60e7290e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  extraLargeHall: {fileID: 0}
+  largeAndExtraSmallHall: {fileID: 0}
+  multiHallAlt: {fileID: 0}
+  multiHall: {fileID: 0}
+  curtainMediumHallSide: {fileID: 0}
+  curtainSmallHallSide: {fileID: 0}
+  curtainExtraSmallHall: {fileID: 0}
+  XL_HallInformation: {fileID: 0}
+  L_HallInformation: {fileID: 0}
+  M_HallInformation: {fileID: 0}
+  M_HallInformation_Alternative: {fileID: 0}
+  S_HallInformation: {fileID: 0}
+  S_HallInformation_Alternative: {fileID: 0}
+  XS_HallInformation: {fileID: 0}
+--- !u!114 &6918096152391603755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457726687832376146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c80c42b1709f64e875f7a28db29b3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mediumHallPosition: {fileID: 0}
+  smallHallPosition: {fileID: 0}
+  extraSmallHallPosition: {fileID: 0}
+  playerCharacter: {fileID: 0}
+  positionMediumHall: {fileID: 0}
+  positionSmallHall: {fileID: 0}
+  positionExtraSmallHall: {fileID: 0}

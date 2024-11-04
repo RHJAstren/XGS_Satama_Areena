@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Finnish (fi)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Finnish (fi)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bd916d266bfcc63478fd4043cc0fe81c
+  m_SerializeEntries:
+  - m_GUID: 2fdf84c19601f3444a3c9872b5b4f62a
+    m_Address: InformationTable_fi
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+    - Preload
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 072f3d089e7a3714ab332497d457a78f
+    m_Address: UI_fi
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41cec86e435af0942bca6aacfbba23ed
+    m_Address: Hall Information_fi
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b23347128135e6943bd60731f3077c83
+    m_Address: Hall Sizes_fi
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fi
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: ecf75c17034107448b7fc1bd5b67b6a7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b265f1daa5b528f4094b1c09d01434fb, type: 2}
+    - {fileID: 11400000, guid: 6c03a3166f08e6e4697229e551eeb743, type: 2}
