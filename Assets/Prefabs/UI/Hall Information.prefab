@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 467696673962786854}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -278,7 +278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: -90}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -272.06485, y: 85.499985}
+  m_AnchoredPosition: {x: -272.06485, y: 85.92}
   m_SizeDelta: {x: 365.5979, y: 1074.1902}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &4133476145295243414
@@ -520,7 +520,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 233.20007, y: 1.5936}
+  m_AnchoredPosition: {x: 233.20007, y: 0}
   m_SizeDelta: {x: 466.4, y: 342.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5624032928842483866
@@ -551,11 +551,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Esitystekniikka\r\n\r\nProjektori + valkokangas\r\nPA Lacoustics A10 4
-    kpl per puoli ripustettuna + 2 kpl SB28 lattialla.\r\nLA8 p\xE4\xE4tteill\xE4
-    ja LR analog.\r\nMidas-mikseri, lavarasia, kaapeloinnit\r\nD8 + moottorinostimet,
-    ohjain ja kaapelointi\r\n3 x F34 -trussilinjat \r\n8 x Tour Par LED-takavalo\r\n6
-    x etuvalo, Chamsys -valo-ohjain\r"
+  m_text: "Esitystekniikka\r\n\r\n\u2022 Projektori + valkokangas\r\n\u2022 PA Lacoustics
+    A10 4 kpl per puoli ripustettuna + 2 kpl SB28 lattialla.\r\n\u2022 LA8 p\xE4\xE4tteill\xE4
+    ja LR analog.\r\n\u2022 Midas-mikseri, lavarasia, kaapeloinnit\r\n\u2022 D8 +
+    moottorinostimet, ohjain ja kaapelointi\r\n\u2022 3 x F34 -trussilinjat \r\n\u2022
+    8 x Tour Par LED-takavalo\r\n\u2022 6 x etuvalo, Chamsys -valo-ohjain\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_fontSizeMin: 12
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -813,7 +813,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -222.82, y: 114.80356}
+  m_AnchoredPosition: {x: -222.82, y: 109.8}
   m_SizeDelta: {x: 1424.5076, y: 292.8722}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &821619271815833090
@@ -1113,12 +1113,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.6
+  m_fontSize: 45
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 45
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1256,7 +1256,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1464,7 +1464,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 39.9, y: 79}
+  m_AnchoredPosition: {x: 38.9, y: 79}
   m_SizeDelta: {x: 960, y: 385}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &2527300448718291670
@@ -1925,7 +1925,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 72.4, y: 41}
+  m_AnchoredPosition: {x: 65, y: 40.5}
   m_SizeDelta: {x: 1006, y: 843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1701950132526590399
@@ -1991,7 +1991,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!1 &5320897062913416663
+--- !u!1 &5046057810762342852
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1999,9 +1999,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3000458420837271775}
-  - component: {fileID: 1443977338176839630}
-  - component: {fileID: 2774951283354676290}
+  - component: {fileID: 3765163216400694099}
+  - component: {fileID: 6737424984575746854}
+  - component: {fileID: 780768589982617167}
   m_Layer: 6
   m_Name: Right
   m_TagString: Untagged
@@ -2009,14 +2009,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &3000458420837271775
+--- !u!224 &3765163216400694099
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5320897062913416663}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 5046057810762342852}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2025,24 +2025,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 233.20007, y: 1.5936}
+  m_AnchoredPosition: {x: 233.2001, y: 0}
   m_SizeDelta: {x: 466.4, y: 342.85}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1443977338176839630
+--- !u!222 &6737424984575746854
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5320897062913416663}
+  m_GameObject: {fileID: 5046057810762342852}
   m_CullTransparentMesh: 1
---- !u!114 &2774951283354676290
+--- !u!114 &780768589982617167
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5320897062913416663}
+  m_GameObject: {fileID: 5046057810762342852}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -2056,11 +2056,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Esitystekniikka\r\n\r\nProjektori + valkokangas\r\nPA Lacoustics A10 4
-    kpl per puoli ripustettuna + 2 kpl SB28 lattialla.\r\nLA8 p\xE4\xE4tteill\xE4
-    ja LR analog.\r\nMidas-mikseri, lavarasia, kaapeloinnit\r\nD8 + moottorinostimet,
-    ohjain ja kaapelointi\r\n3 x F34 -trussilinjat \r\n8 x Tour Par LED-takavalo\r\n6
-    x etuvalo, Chamsys -valo-ohjain\r"
+  m_text: "Esitystekniikka\r\n\r\n\u2022 Projektori + valkokangas\r\n\u2022 PA Lacoustics
+    A10 4 kpl per puoli ripustettuna + 2 kpl SB28 lattialla.\r\n\u2022 LA8 p\xE4\xE4tteill\xE4
+    ja LR analog.\r\n\u2022 Midas-mikseri, lavarasia, kaapeloinnit\r\n\u2022 D8 +
+    moottorinostimet, ohjain ja kaapelointi\r\n\u2022 3 x F34 -trussilinjat \r\n\u2022
+    8 x Tour Par LED-takavalo\r\n\u2022 6 x etuvalo, Chamsys -valo-ohjain\r"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -2094,7 +2094,7 @@ MonoBehaviour:
   m_fontSizeMin: 12
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2194,9 +2194,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lavarakenne (kiinte\xE4)\n\nLayher 12 x 9m / Nivtec 12 x 9m\r\nramppi,
-    portaat\r\n4 x Global Truss F34 trussilinjat\r\nmoottorinostimet 15 kpl\r\nMolton-kankaat\r\nlavan
-    etumaskauskangas"
+  m_text: "Lavarakenne (kiinte\xE4)\n\n\u2022 Layher 12 x 9m / Nivtec 12 x 9m\r\n\u2022
+    ramppi, portaat\r\n\u2022 4 x Global Truss F34 trussilinjat\r\n\u2022 moottorinostimet
+    15 kpl\r\n\u2022 Molton-kankaat\r\n\u2022 lavan etumaskauskangas"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -2223,14 +2223,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.55
+  m_fontSize: 28.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2611,17 +2611,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Valo
-
-
-    8 x Varilite VL1000 -etuvalot
-
-    12 x Tour Par LED -takavalot
-
-    1
-    x Chamsys MQ80 valo-ohjain
-
-    kaapelit'
+  m_text: "Valo\n\n\u2022 8 x Varilite VL1000 -etuvalot\n\u2022 12 x Tour Par LED
+    -takavalot\n\u2022 1 x Chamsys MQ80 valo-ohjain\n\u2022 kaapelit"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -2655,7 +2646,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -2716,8 +2707,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5475999281549410836}
   - {fileID: 5028338812841675756}
@@ -2763,7 +2754,7 @@ RectTransform:
   - {fileID: 3153045045229376508}
   - {fileID: 995902092214189156}
   - {fileID: 7823385444845526995}
-  - {fileID: 3000458420837271775}
+  - {fileID: 3765163216400694099}
   m_Father: {fileID: 1564239253638169026}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2974,9 +2965,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\n2200 Henkil\xF6\xE4: \tSeisovana\n\n1518 Henkil\xF6\xE4: \tIstuvana
-    tuoliriveitt\xE4in\n\n750 Henkil\xF6\xE4: \tPy\xF6re\xE4t 10 henkil\xF6n p\xF6yd\xE4t\n\n820
-    Henkil\xF6\xE4:\tPitk\xE4t 8 henkil\xF6n p\xF6yd\xE4t"
+  m_text: "2200 Henkil\xF6\xE4: \tSeisovana\n\n1518 Henkil\xF6\xE4: \tIstuvana tuoliriveitt\xE4in\n\n750
+    Henkil\xF6\xE4: \tPy\xF6re\xE4t 10 henkil\xF6n p\xF6yd\xE4t\n\n820 Henkil\xF6\xE4:\tPitk\xE4t
+    8 henkil\xF6n p\xF6yd\xE4t"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -3003,7 +2994,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.05
+  m_fontSize: 23.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3071,7 +3062,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7230176174057854672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -3079,7 +3070,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00024414, y: -0.00024414}
+  m_AnchoredPosition: {x: 0.00024414, y: 0}
   m_SizeDelta: {x: 1006, y: 843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7287642465719608020
@@ -3704,7 +3695,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -3804,7 +3795,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "600 Henkil\xF6\xE4:\tSeisovana\n\n725 Henkil\xF6\xE4:\tTeleskooppikatsomo"
+  m_text: "600 Henkil\xF6\xE4: Seisovana\n\n725 Henkil\xF6\xE4: Teleskooppikatsomo"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -3831,12 +3822,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.85
+  m_fontSize: 35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 12
-  m_fontSizeMax: 45
+  m_fontSizeMax: 35
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
@@ -3914,7 +3905,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 180.5, y: 79}
+  m_AnchoredPosition: {x: 179, y: 79}
   m_SizeDelta: {x: 1377.1721, y: 385}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &5235440020375251789
@@ -4045,11 +4036,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC4\xE4ni\n\n18 x L-acoustics Kara linearray -kaiutin\r\n4 x L-acoustics
-    Kiva -kaiutin\r\n4 x L-acoustics SB28 sub -kaiutin\r\n6 z L-acoustics HiQ15 monitorikaiutin\r\nL-acoustics
-    p\xE4\xE4tevahvistimet\r\nkaapelointi, ripustustarvikkeet\r\n2 x Allen & Heath
-    SQ5 + GX4816 + Slink -kortti\r\nkaapelit ja telineet\r\nvalikoima mikrofoneja,
-    langallisia ja langattomia"
+  m_text: "\xC4\xE4ni\n\n\u2022 18 x L-acoustics Kara linearray -kaiutin\r\n\u2022
+    4 x L-acoustics Kiva -kaiutin\r\n\u2022 4 x L-acoustics SB28 sub -kaiutin\r\n\u2022
+    6 z L-acoustics HiQ15 monitorikaiutin\r\n\u2022 L-acoustics p\xE4\xE4tevahvistimet\r\n\u2022
+    kaapelointi, ripustustarvikkeet\r\n\u2022 2 x Allen & Heath SQ5 + GX4816 + Slink
+    -kortti\r\n\u2022 kaapelit ja telineet\r\n\u2022 valikoima mikrofoneja, langallisia
+    ja langattomia"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -4076,14 +4068,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20.25
+  m_fontSize: 20
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4258,7 +4250,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "600 Henkil\xF6\xE4:\tSeisovana\n\n725 Henkil\xF6\xE4:\tTeleskooppikatsomo"
+  m_text: "600 Henkil\xF6\xE4: Seisovana\n\n725 Henkil\xF6\xE4: Teleskooppikatsomo"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -4285,12 +4277,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.85
+  m_fontSize: 35
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 12
-  m_fontSizeMax: 45
+  m_fontSizeMax: 35
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
