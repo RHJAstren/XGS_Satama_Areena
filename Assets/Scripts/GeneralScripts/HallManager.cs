@@ -107,7 +107,7 @@ public class HallManager : MonoBehaviour
         curtainExtraSmallHall.SetActive(true);
         XL_HallInformation.SetActive(false);
         L_HallInformation.SetActive(false);
-        if (curtainMediumHallSide.activeInHierarchy)
+        if (!curtainMediumHallSide.activeInHierarchy)
         {
             mediumHallCurtainIsActive = false;
             smallHallCurtainIsActive = true;
