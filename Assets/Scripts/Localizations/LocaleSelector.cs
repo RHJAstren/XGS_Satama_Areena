@@ -6,6 +6,8 @@ public class LocaleSelector : MonoBehaviour
 {
     private bool activeLocale = false;
 
+    public static LocaleSelector instance;
+
     /// <summary>
     /// This method is used to change the locale of the game.
     /// </summary>

@@ -62,7 +62,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 995902092214189156}
+  - {fileID: 7823385444845526995}
+  - {fileID: 3765163216400694099}
   m_Father: {fileID: 104015187469537665}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -120,7 +123,7 @@ GameObject:
   - component: {fileID: 8656708655882856214}
   - component: {fileID: 8758584662780791875}
   m_Layer: 6
-  m_Name: Left_Upper
+  m_Name: Right_Upper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -133,17 +136,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913674232623449073}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000015288597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1852637529303887298}
+  m_Father: {fileID: 7220666665220803228}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -347.7802, y: 97.081}
-  m_SizeDelta: {x: 606.792, y: 81.905}
+  m_AnchoredPosition: {x: 511.00272, y: 97.08}
+  m_SizeDelta: {x: 372.51, y: 81.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8656708655882856214
 CanvasRenderer:
@@ -369,16 +372,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043239882941439723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4563314423632996724}
+  m_Father: {fileID: 1863532790334056654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 237.665, y: 2.006}
+  m_AnchoredPosition: {x: 237.66492, y: 2.006}
   m_SizeDelta: {x: 460.106, y: 352.796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5410485563877159355
@@ -409,15 +412,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ensimm\xE4isess\xE4 kerroksessa sijaitseva M-sali muodostuu, kun L-sali
-    jaetaan \xE4\xE4nt\xE4 erist\xE4v\xE4ll\xE4 v\xE4lisein\xE4ll\xE4 erilliseksi
-    tilaksi. \r\n\r\nTilaan kuuluu talon esitystekniikan lis\xE4ksi 12 x 9m esiintymislava.\r\n\r\nTapahtumaesimerkkej\xE4:\r\n\r\nIstuva
-    illallinen pitkill\xE4 8 henkil\xF6n p\xF6ydill\xE4 \u2013 enimmill\xE4\xE4n
-    424 istumapaikkaa\r\nPy\xF6reill\xE4 10 henkil\xF6n p\xF6ydill\xE4 enimmill\xE4\xE4n
-    320 istumapaikkaa.\r\n\r\nKonserteissa tai kokouksissa tuolirivej\xE4 tasalattialle
-    mahtuu noin 400.\r\n\r\nEsiintymislava sek\xE4 talon esiintymistekniikka tukevat
-    hyvin esimerkiksi cocktailtilaisuuksia tai konsertteja, joissa 400 henkil\xF6n
-    (istuva) kapasiteetti on riitt\xE4v\xE4.\r\n"
+  m_text: "The M hall can be formed on the first floor after the L hall is divided
+    into two with a sound proof temporary wall.\r\n\r\nThe hall contains the houses
+    presenting technology along side a 12m x 9m stage. \r\n\r\nEvent examples:\r\n\r\nSeated
+    dinner utilizing the long 8 person tables. Maximum capacity of 424 persons.\r\nOr
+    with the round 10 person tables. Maximum capacity of 320 persons.\r\n\r\nFor
+    concerts or conferences, a possibility house 400 persons in rows of chairs.\r\n\r\nThe
+    stage and house presenting technology support well for example a cocktail event
+    or concert where the maximum capacity for seated persons is 400.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -444,7 +446,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16.45
+  m_fontSize: 15.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -511,16 +513,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1158147649773641403}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8796548971216703762}
+  m_Father: {fileID: 8673171922580645315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 233.20007, y: 0}
+  m_AnchoredPosition: {x: 233.2, y: 0}
   m_SizeDelta: {x: 466.4, y: 342.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5624032928842483866
@@ -551,11 +553,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Esitystekniikka\r\n\r\n\u2022 Projektori + valkokangas\r\n\u2022 PA Lacoustics
-    A10 4 kpl per puoli ripustettuna + 2 kpl SB28 lattialla.\r\n\u2022 LA8 p\xE4\xE4tteill\xE4
-    ja LR analog.\r\n\u2022 Midas-mikseri, lavarasia, kaapeloinnit\r\n\u2022 D8 +
-    moottorinostimet, ohjain ja kaapelointi\r\n\u2022 3 x F34 -trussilinjat \r\n\u2022
-    8 x Tour Par LED-takavalo\r\n\u2022 6 x etuvalo, Chamsys -valo-ohjain\r"
+  m_text: "Presenting Technology\r\n\r\n\u2022 Projector + white screen\r\n\u2022
+    PA Lacoustics A10 4 x suspended on each side + 2 kpl SB28 on the floor.\r\n\u2022
+    LA8 p\xE4\xE4tteill\xE4 and LR analog.\r\n\u2022 Midas-mixer, stage box, cable
+    management\r\n\u2022 D8 + motor raisers, controller and cable management\r\n\u2022
+    3 x F34 -truss lines\r\n\u2022 8 x Tour Par LED-back lights\r\n\u2022 6 x front
+    lights, Chamsys -light controller"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -653,7 +656,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1202173227961893083}
+  - {fileID: 5417009754273152642}
+  - {fileID: 3735523958286080863}
   m_Father: {fileID: 4563314423632996724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -728,7 +734,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0.000000029808}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 8077640664065422097}
+  - {fileID: 3205440636017937246}
+  - {fileID: 5864184972166141842}
+  - {fileID: 3763514544017046147}
   m_Father: {fileID: 1852637529303887298}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -806,9 +816,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7220666665220803228}
-  - {fileID: 8077640664065422097}
-  - {fileID: 3205440636017937246}
-  - {fileID: 5864184972166141842}
   m_Father: {fileID: 1564239253638169026}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -904,16 +911,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2341932346442148680}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6322563369931852108}
+  m_Father: {fileID: 7082781326879302678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 237.665, y: 2.006}
+  m_AnchoredPosition: {x: 237.66492, y: 2.006}
   m_SizeDelta: {x: 460.106, y: 352.796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3214271706315205094
@@ -944,15 +951,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Ensimm\xE4isess\xE4 kerroksessa sijaitseva M-sali muodostuu, kun L-sali
-    jaetaan \xE4\xE4nt\xE4 erist\xE4v\xE4ll\xE4 v\xE4lisein\xE4ll\xE4 erilliseksi
-    tilaksi. \r\n\r\nTilaan kuuluu talon esitystekniikan lis\xE4ksi 12 x 9m esiintymislava.\r\n\r\nTapahtumaesimerkkej\xE4:\r\n\r\nIstuva
-    illallinen pitkill\xE4 8 henkil\xF6n p\xF6ydill\xE4 \u2013 enimmill\xE4\xE4n
-    424 istumapaikkaa\r\nPy\xF6reill\xE4 10 henkil\xF6n p\xF6ydill\xE4 enimmill\xE4\xE4n
-    320 istumapaikkaa.\r\n\r\nKonserteissa tai kokouksissa tuolirivej\xE4 tasalattialle
-    mahtuu noin 400.\r\n\r\nEsiintymislava sek\xE4 talon esiintymistekniikka tukevat
-    hyvin esimerkiksi cocktailtilaisuuksia tai konsertteja, joissa 400 henkil\xF6n
-    (istuva) kapasiteetti on riitt\xE4v\xE4.\r\n"
+  m_text: "The M hall can be formed on the first floor after the L hall is divided
+    into two with a sound proof temporary wall.\r\n\r\nThe hall contains the houses
+    presenting technology along side a 12m x 9m stage. \r\n\r\nEvent examples:\r\n\r\nSeated
+    dinner utilizing the long 8 person tables. Maximum capacity of 424 persons.\r\nOr
+    with the round 10 person tables. Maximum capacity of 320 persons.\r\n\r\nFor
+    concerts or conferences, a possibility house 400 persons in rows of chairs.\r\n\r\nThe
+    stage and house presenting technology support well for example a cocktail event
+    or concert where the maximum capacity for seated persons is 400.\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -979,12 +985,160 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 16.45
+  m_fontSize: 15.8
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 12
   m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &2394333897695740710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6170371715189155149}
+  - component: {fileID: 8444251349328994735}
+  - component: {fileID: 1091447357272393970}
+  m_Layer: 6
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6170371715189155149
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2394333897695740710}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.9736e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8717356357248814262}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.00003624, y: -0.0000076294}
+  m_SizeDelta: {x: 834.5, y: 385}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8444251349328994735
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2394333897695740710}
+  m_CullTransparentMesh: 1
+--- !u!114 &1091447357272393970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2394333897695740710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "The S hall can be formed on the first floor after the L hall is divided
+    into two with a sound proof temporary wall. The club sized S halls max capacity
+    is 725 persons sitting down or 600 persons standing up during the event\r\n\r\nThe
+    S hall works best for 250-700 person seminars, stand-up gigs as well as for acoustic
+    concerts. Show runners can also ask for extra seats on the second floor after
+    which the maximum capacity is raised to 950 persons.\r\n\r\nThe rising grandstands
+    is a part of the hall. The stands can be activated in three different slots.
+    There are 250 seats per stand slot for seminars. Seminars and concerts are supported
+    with the S halls presenting technology. There is also the possibility to add
+    an 8m x 6m presenting stage or mattress. \r\n\r\nFor different themed seated
+    events, S hall can be transformed from a 725 grandstand to a large 12m x 9m stage
+    and L hall, with row upon row of chairs.\r\n\r\nThe seminars can include a few
+    hour long cruise of the Kotka archipelago or an awe-inspiring rafting trip of
+    Kymijoki. On the south-eastern coast you can find a comprehensive list of activities.
+    We will be more than happy to help you experience them the best way possible!"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
+  m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 16
+  m_fontSizeBase: 16
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 14
+  m_fontSizeMax: 16
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1046,12 +1200,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2485392015545054422}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5475999281549410836}
+  m_Father: {fileID: 3854754390758375868}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1155,6 +1309,81 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &2533862864320911353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3763514544017046147}
+  - component: {fileID: 6686065750903844895}
+  - component: {fileID: 3087286943494584868}
+  m_Layer: 6
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3763514544017046147
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2533862864320911353}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.1918, y: 2.5187, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7220666665220803228}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 106.3026, y: 2.6990464}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6686065750903844895
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2533862864320911353}
+  m_CullTransparentMesh: 1
+--- !u!114 &3087286943494584868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2533862864320911353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3c563ad2727bd3d47995bf1202096265, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &3072019466147009108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1180,16 +1409,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3072019466147009108}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6322563369931852108}
+  m_Father: {fileID: 7082781326879302678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -234.868, y: -44.1}
+  m_AnchoredPosition: {x: -234.86807, y: -44.1}
   m_SizeDelta: {x: 469.736, y: 260.695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7078744085847026588
@@ -1316,16 +1545,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3254420186665499084}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4563314423632996724}
+  m_Father: {fileID: 1863532790334056654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -234.868, y: 132.24}
+  m_AnchoredPosition: {x: -234.86807, y: 132.24}
   m_SizeDelta: {x: 469.736, y: 91.984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1071608222552561358
@@ -1456,10 +1685,8 @@ RectTransform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 4915414906029935292}
   - {fileID: 8673171922580645315}
-  - {fileID: 7913679645150481502}
-  - {fileID: 6104630490333869659}
-  - {fileID: 2636646309331970019}
   m_Father: {fileID: 1564239253638169026}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1530,6 +1757,178 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!1 &3571185833118831485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8968803988431399736}
+  - component: {fileID: 2665704193353087822}
+  - component: {fileID: 7034212390398720838}
+  m_Layer: 6
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8968803988431399736
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3571185833118831485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6616972115179969388}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.0000023841858, y: -0.0000019073486}
+  m_SizeDelta: {x: 786.49, y: 326.74}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2665704193353087822
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3571185833118831485}
+  m_CullTransparentMesh: 1
+--- !u!114 &7034212390398720838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3571185833118831485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'L Hall is Satama Areena''s main hall located on the first floor of the
+    building.
+
+
+
+    The main hall is capable of holding up to 1518 persons seated
+    in rows.
+
+
+
+    You are able to squeeze 820 seats from the long 8 person tables.
+    The circular 10 person tables can hold up to 750 people in total.
+
+
+
+    The
+    Hall also supports our stage of 12m in width and 9m in depth as well as the house
+    presenting technology.
+
+
+
+    For standing gigs, the L hall can be installed
+    with a 15 meter long bar table. It is also possible to make dedicated ''over
+    18'' areas.
+
+
+
+    You can easily find multiple LVIS wells and electrical outlets
+    from the floor of the L Hall. This allows for different kinds of fairs to take
+    place at our hall.
+
+
+
+    The L hall allows for an excellent experience in business
+    and entertainment. The day begins at our S Hall and by the evening, the guests
+    have moved to the other side of the curtains to the M hall to relax and network
+    to the taste of good food and the sounds of music.
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
+  m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 12.65
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 12
+  m_fontSizeMax: 16
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &3743141952698472412
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,7 +1958,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 6070752709960962486}
+  - {fileID: 7900924233921796924}
+  - {fileID: 6945195667442763238}
   m_Father: {fileID: 6322563369931852108}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1637,8 +2039,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3854754390758375868}
-  - {fileID: 2678439379240330147}
-  - {fileID: 1268305679760581299}
   m_Father: {fileID: 1564239253638169026}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1784,6 +2184,82 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &4614291207747392400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4915414906029935292}
+  - component: {fileID: 8006130274120454704}
+  - component: {fileID: 1893350920163276735}
+  m_Layer: 6
+  m_Name: BG (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4915414906029935292
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614291207747392400}
+  m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -162.75003}
+  m_LocalScale: {x: 0.20000002, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 110630579556554284}
+  m_Father: {fileID: 8796548971216703762}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -733, y: 0}
+  m_SizeDelta: {x: 834.5, y: 385}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8006130274120454704
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614291207747392400}
+  m_CullTransparentMesh: 1
+--- !u!114 &1893350920163276735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614291207747392400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &4685271630740028684
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,9 +2292,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1863532790334056654}
-  - {fileID: 1202173227961893083}
-  - {fileID: 5417009754273152642}
-  - {fileID: 3735523958286080863}
   m_Father: {fileID: 1564239253638169026}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1889,6 +2362,82 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!1 &4845157208036633127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6616972115179969388}
+  - component: {fileID: 3874255741609961692}
+  - component: {fileID: 408453900872898954}
+  m_Layer: 6
+  m_Name: BG (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6616972115179969388
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845157208036633127}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -206.904}
+  m_LocalScale: {x: 0.2, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8968803988431399736}
+  m_Father: {fileID: 5028338812841675756}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -683, y: -0.00039959}
+  m_SizeDelta: {x: 827.62, y: 384.19}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3874255741609961692
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845157208036633127}
+  m_CullTransparentMesh: 1
+--- !u!114 &408453900872898954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4845157208036633127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &4863775183662190523
 GameObject:
   m_ObjectHideFlags: 0
@@ -1917,7 +2466,7 @@ RectTransform:
   m_GameObject: {fileID: 4863775183662190523}
   m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: 0, z: 13.6}
-  m_LocalScale: {x: 0.27, y: 0.27, z: 1.35}
+  m_LocalScale: {x: 0.29108596, y: 0.29108596, z: 1.4554298}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5035969693694988686}
@@ -1925,7 +2474,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 65, y: 40.5}
+  m_AnchoredPosition: {x: 23.7, y: 40.474}
   m_SizeDelta: {x: 1006, y: 843}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1701950132526590399
@@ -1991,6 +2540,82 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!1 &4987074576315944181
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8717356357248814262}
+  - component: {fileID: 8520133221456442387}
+  - component: {fileID: 6706324492900969264}
+  m_Layer: 6
+  m_Name: BG (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8717356357248814262
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987074576315944181}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -91.25}
+  m_LocalScale: {x: 0.2, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6170371715189155149}
+  m_Father: {fileID: 104015187469537665}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -733, y: 0}
+  m_SizeDelta: {x: 834.5, y: 385}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8520133221456442387
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987074576315944181}
+  m_CullTransparentMesh: 1
+--- !u!114 &6706324492900969264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4987074576315944181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &5046057810762342852
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,11 +2646,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 104015187469537665}
+  m_Father: {fileID: 3153045045229376508}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 233.2001, y: 0}
+  m_AnchoredPosition: {x: 233.20003, y: 0}
   m_SizeDelta: {x: 466.4, y: 342.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6737424984575746854
@@ -2056,11 +2681,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Esitystekniikka\r\n\r\n\u2022 Projektori + valkokangas\r\n\u2022 PA Lacoustics
-    A10 4 kpl per puoli ripustettuna + 2 kpl SB28 lattialla.\r\n\u2022 LA8 p\xE4\xE4tteill\xE4
-    ja LR analog.\r\n\u2022 Midas-mikseri, lavarasia, kaapeloinnit\r\n\u2022 D8 +
-    moottorinostimet, ohjain ja kaapelointi\r\n\u2022 3 x F34 -trussilinjat \r\n\u2022
-    8 x Tour Par LED-takavalo\r\n\u2022 6 x etuvalo, Chamsys -valo-ohjain\r"
+  m_text: "Presenting Technology\r\n\r\n\u2022 Projector + white screen\r\n\u2022
+    PA Lacoustics A10 4 x suspended on each side + 2 kpl SB28 on the floor.\r\n\u2022
+    LA8 p\xE4\xE4tteill\xE4 and LR analog.\r\n\u2022 Midas-mixer, stage box, cable
+    management\r\n\u2022 D8 + motor raisers, controller and cable management\r\n\u2022
+    3 x F34 -truss lines\r\n\u2022 8 x Tour Par LED-back lights\r\n\u2022 6 x front
+    lights, Chamsys -light controller"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -2154,16 +2780,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5459732369057952816}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.000015616419}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5028338812841675756}
+  m_Father: {fileID: 5999201395615834827}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 509.6, y: -0.0011854}
+  m_AnchoredPosition: {x: 518.903, y: -0.0007562465}
   m_SizeDelta: {x: 340, y: 352.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5505076403218751322
@@ -2194,9 +2820,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lavarakenne (kiinte\xE4)\n\n\u2022 Layher 12 x 9m / Nivtec 12 x 9m\r\n\u2022
-    ramppi, portaat\r\n\u2022 4 x Global Truss F34 trussilinjat\r\n\u2022 moottorinostimet
-    15 kpl\r\n\u2022 Molton-kankaat\r\n\u2022 lavan etumaskauskangas"
+  m_text: "Stage (Fixed)\n\n\u2022 Nivtec 12 m x 9 m, 1 m high\r\n\u2022 ramp, stairs\n\u2022
+    4 x Global Truss F34 truss lines\n\u2022 Molton-fabric\n\u2022 Stage front masking
+    fabric"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -2223,7 +2849,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28.05
+  m_fontSize: 30
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2290,17 +2916,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5683341727824054014}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5028338812841675756}
+  m_Father: {fileID: 5999201395615834827}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -507.996, y: 136.07391}
-  m_SizeDelta: {x: 328.591, y: 80.62}
+  m_AnchoredPosition: {x: -503.21, y: 136.0743}
+  m_SizeDelta: {x: 337.62, y: 80.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7080158566239801460
 CanvasRenderer:
@@ -2330,7 +2956,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "L-Sali\n\n1480 m\xB2\n"
+  m_text: "L Hall\n\n1480 m\xB2\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -2411,7 +3037,7 @@ GameObject:
   - component: {fileID: 5578518388318869949}
   - component: {fileID: 2570644502453307758}
   m_Layer: 6
-  m_Name: Right
+  m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2424,16 +3050,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5742710096390508794}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1852637529303887298}
+  m_Father: {fileID: 7220666665220803228}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 308.80368, y: 0}
+  m_AnchoredPosition: {x: -393.99738, y: -0.0009536743}
   m_SizeDelta: {x: 617.599, y: 229.332}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5578518388318869949
@@ -2464,20 +3090,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Satama Areenan toisessa kerroksessa sijaitseva XS-sali on yhten\xE4inen
-    tila.\r\n\r\nTilaan voidaan keikan yhteyteen rakentaa oma aitiomainen tila, josta
-    on suora n\xE4kym\xE4 esiintymislavalle. Pitk\xE4t p\xF6yd\xE4t, tarjoilut katetaan
-    tilaan, toisen kerroksen WC-tilat l\xE4hell\xE4, p\xE4\xE4aulassa oma narikka
-    sek\xE4 kulku L-saliin (areenatasolle) \u2013 siin\xE4 VIPi\xE4 kerrakseen!\r\n\r\nIsompia
-    kokouksia varten t\xE4h\xE4n saliin voidaan rakentaa 6 x 4m esiintymislava sek\xE4
-    tarvittava esitystekniikka. Lavan ollessa k\xE4yt\xF6ss\xE4 mahtuu tuoliriveitt\xE4in
-    yhteens\xE4 312 tuolia. Yhteen riviin mahtuu 14 tuolia.\r\n\r\nLuokkamuodossa,
-    eli 2 henkil\xF6n luentop\xF6ydill\xE4, XS-saliin saadaan t\xE4h\xE4n tilaan
-    parhaimmillaan istuen 204 henkil\xF6\xE4.\r\n\r\nPitk\xE4t 8 henkil\xF6n p\xF6yd\xE4t
-    \u2013 31 p\xF6yt\xE4\xE4 = 250 istumapaikkaa.\r\n\r\nTilassa on my\xF6s 4kpl
-    75\u2033 liikuteltavia n\xE4ytt\xF6j\xE4 sis\xE4lt\xE4en n\xE4yt\xF6njakajan
-    (HDMI base), ja \xE4\xE4nentoiston lis\xE4ksi tilaan voidaan tuoda my\xF6s projektori
-    ja valkokangas.\r\n"
+  m_text: "The XS hall found on the second floor of Satama Areena is a collective
+    space.\r\n\r\nThe hall can be used for the show runners VIP box with a view of
+    the main stage. 8 person long tables, catering is provided on the premises, toilet
+    on the second floor is close, a private coat hanger and passes to the L Hall.
+    A VIP experience like no other! \r\n\r\nFor bigger conferences, the hall can
+    be equipped with a 6m x 4m stage and the necessary presenting accessories. With
+    the stage in the hall, it can hold up to 312 chairs in a row. One row can hold
+    14 chairs.\r\n\r\nIn a classroom setting (2 person lecture tables), the XS hall
+    can hold up to 204 persons at best.\r\n\r\nThe hall can hold 31 of the long 8
+    person tables. Making for 248 seats. \r\n\r\nThe hall also holds 4x 75\" moveable
+    TVs with an HDMI base. The hall can be equipped with sound equipment as well
+    as a projector and a white screen."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -2504,12 +3128,160 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 12.2
+  m_fontSize: 13
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 12
   m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &6033334474960572200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 110630579556554284}
+  - component: {fileID: 960073437995622137}
+  - component: {fileID: 5695903118822106254}
+  m_Layer: 6
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &110630579556554284
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6033334474960572200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.9736e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4915414906029935292}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.00003624, y: -0.0000076294}
+  m_SizeDelta: {x: 834.5, y: 385}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &960073437995622137
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6033334474960572200}
+  m_CullTransparentMesh: 1
+--- !u!114 &5695903118822106254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6033334474960572200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "The S hall can be formed on the first floor after the L hall is divided
+    into two with a sound proof temporary wall. The club sized S halls max capacity
+    is 725 persons sitting down or 600 persons standing up during the event\r\n\r\nThe
+    S hall works best for 250-700 person seminars, stand-up gigs as well as for acoustic
+    concerts. Show runners can also ask for extra seats on the second floor after
+    which the maximum capacity is raised to 950 persons.\r\n\r\nThe rising grandstands
+    is a part of the hall. The stands can be activated in three different slots.
+    There are 250 seats per stand slot for seminars. Seminars and concerts are supported
+    with the S halls presenting technology. There is also the possibility to add
+    an 8m x 6m presenting stage or mattress. \r\n\r\nFor different themed seated
+    events, S hall can be transformed from a 725 grandstand to a large 12m x 9m stage
+    and L hall, with row upon row of chairs.\r\n\r\nThe seminars can include a few
+    hour long cruise of the Kotka archipelago or an awe-inspiring rafting trip of
+    Kymijoki. On the south-eastern coast you can find a comprehensive list of activities.
+    We will be more than happy to help you experience them the best way possible!"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
+  m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 16
+  m_fontSizeBase: 16
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 14
+  m_fontSizeMax: 16
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -2571,16 +3343,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6233448945020067146}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5028338812841675756}
+  m_Father: {fileID: 5999201395615834827}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 167.3, y: -0.0011854}
+  m_AnchoredPosition: {x: 176.603, y: -0.0007562465}
   m_SizeDelta: {x: 340, y: 352.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &569899866174071634
@@ -2611,8 +3383,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Valo\n\n\u2022 8 x Varilite VL1000 -etuvalot\n\u2022 12 x Tour Par LED
-    -takavalot\n\u2022 1 x Chamsys MQ80 valo-ohjain\n\u2022 kaapelit"
+  m_text: "Lights\n\n\u2022 8 x Varilite VL1000 -front lights\n\u2022 12 x Tour Par
+    LED -back lights\n\u2022 1 x Chamsys MQ80 light controller\n\u2022 Cables"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -2751,10 +3523,8 @@ RectTransform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8717356357248814262}
   - {fileID: 3153045045229376508}
-  - {fileID: 995902092214189156}
-  - {fileID: 7823385444845526995}
-  - {fileID: 3765163216400694099}
   m_Father: {fileID: 1564239253638169026}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2854,7 +3624,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: -0.00000035763}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2569303848709751681}
+  - {fileID: 5970937648531616606}
+  - {fileID: 9095379453312090518}
+  - {fileID: 6012664782400029780}
+  - {fileID: 7068143597016665562}
   m_Father: {fileID: 5028338812841675756}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2925,17 +3700,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7155695218599044302}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5028338812841675756}
+  m_Father: {fileID: 5999201395615834827}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -507.996, y: -40.311}
-  m_SizeDelta: {x: 328.591, y: 272.15}
+  m_AnchoredPosition: {x: -503.21, y: -40.31062}
+  m_SizeDelta: {x: 337.62, y: 272.15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9111007516957130436
 CanvasRenderer:
@@ -2965,9 +3740,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "2200 Henkil\xF6\xE4: \tSeisovana\n\n1518 Henkil\xF6\xE4: \tIstuvana tuoliriveitt\xE4in\n\n750
-    Henkil\xF6\xE4: \tPy\xF6re\xE4t 10 henkil\xF6n p\xF6yd\xE4t\n\n820 Henkil\xF6\xE4:\tPitk\xE4t
-    8 henkil\xF6n p\xF6yd\xE4t"
+  m_text: '2200 Persons:\tStanding
+
+
+    1518 Persons: \tSitting in rows
+
+
+    750
+    Persons: \tRound 10 person tables
+
+
+    820 Persons:\tLong 8 person tables'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -2994,10 +3777,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 23.15
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -3140,7 +3923,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 7913679645150481502}
+  - {fileID: 6104630490333869659}
+  - {fileID: 2636646309331970019}
   m_Father: {fileID: 8796548971216703762}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -3198,7 +3984,7 @@ GameObject:
   - component: {fileID: 911048077560875148}
   - component: {fileID: 70883811255424585}
   m_Layer: 6
-  m_Name: Left_Lower
+  m_Name: Right_Lower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3211,17 +3997,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7350442361582650723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.000015288597}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1852637529303887298}
+  m_Father: {fileID: 7220666665220803228}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -347.7802, y: -47.856976}
-  m_SizeDelta: {x: 606.792, y: 181.26}
+  m_AnchoredPosition: {x: 511.00266, y: -47.85793}
+  m_SizeDelta: {x: 372.5, y: 181.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &911048077560875148
 CanvasRenderer:
@@ -3251,8 +4037,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "308 Henkil\xF6\xE4:\tIstuvana, tuolirivit\n\n250 Henkil\xF6\xE4:\tPitk\xE4t
-    8 henkil\xF6n p\xF6yd\xE4t\n\n204 Henkil\xF6\xE4:\t2 henkil\xF6n luentop\xF6ydill\xE4"
+  m_text: "308 Henkil\xF6\xE4:\\t Istuvana, tuolirivit\n\n250 Henkil\xF6\xE4:\\t
+    Pitk\xE4t 8:n henkil\xF6n p\xF6yd\xE4t\n\n204 Henkil\xF6\xE4:\\t 2:n henkil\xF6n
+    luentop\xF6ydill\xE4"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -3279,7 +4066,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30.85
+  m_fontSize: 22.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3346,16 +4133,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7454389700471295049}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 6322563369931852108}
+  m_Father: {fileID: 7082781326879302678}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -234.868, y: 132.24}
+  m_AnchoredPosition: {x: -234.86807, y: 132.24}
   m_SizeDelta: {x: 469.736, y: 91.984}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1263065113869977402
@@ -3480,12 +4267,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7501626011357427608}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5475999281549410836}
+  m_Father: {fileID: 3854754390758375868}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3619,16 +4406,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7713369213770664871}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 4563314423632996724}
+  m_Father: {fileID: 1863532790334056654}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -234.868, y: -44.1}
+  m_AnchoredPosition: {x: -234.86807, y: -44.1}
   m_SizeDelta: {x: 469.736, y: 260.695}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8421408529354032767
@@ -3755,16 +4542,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7880702420796766697}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 104015187469537665}
+  m_Father: {fileID: 3153045045229376508}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -233.421, y: -38.17}
+  m_AnchoredPosition: {x: -233.42108, y: -38.17}
   m_SizeDelta: {x: 466.843, y: 263.317}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3327586712366328801
@@ -3795,7 +4582,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "600 Henkil\xF6\xE4: Seisovana\n\n725 Henkil\xF6\xE4: Teleskooppikatsomo"
+  m_text: '600 Persons: Standing
+
+
+    725 persons: Rising stands'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -3882,7 +4672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5028338812841675756
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3896,11 +4686,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5999201395615834827}
-  - {fileID: 2569303848709751681}
-  - {fileID: 5970937648531616606}
-  - {fileID: 9095379453312090518}
-  - {fileID: 6012664782400029780}
-  - {fileID: 7068143597016665562}
+  - {fileID: 6616972115179969388}
   m_Father: {fileID: 1564239253638169026}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -3996,16 +4782,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8174653404581687681}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 5028338812841675756}
+  m_Father: {fileID: 5999201395615834827}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -173.5, y: -0.0011854}
+  m_AnchoredPosition: {x: -164.19702, y: -0.0007562465}
   m_SizeDelta: {x: 340, y: 352.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &288436506285463809
@@ -4036,12 +4822,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xC4\xE4ni\n\n\u2022 18 x L-acoustics Kara linearray -kaiutin\r\n\u2022
-    4 x L-acoustics Kiva -kaiutin\r\n\u2022 4 x L-acoustics SB28 sub -kaiutin\r\n\u2022
-    6 z L-acoustics HiQ15 monitorikaiutin\r\n\u2022 L-acoustics p\xE4\xE4tevahvistimet\r\n\u2022
-    kaapelointi, ripustustarvikkeet\r\n\u2022 2 x Allen & Heath SQ5 + GX4816 + Slink
-    -kortti\r\n\u2022 kaapelit ja telineet\r\n\u2022 valikoima mikrofoneja, langallisia
-    ja langattomia"
+  m_text: "Sound\n\n\u2022 18 x L-acoustics Kara linearray -speaker\r\n\u2022 6 x
+    SB18\n\u2022 6 x L-acoustics Kiva -speaker\r\n\u2022 4 x L-acoustics SB28 sub
+    -speaker\r\n\u2022 6 x Meyer MJF-210 monitor\r\n\u2022 L-acoustics power amplifier\n\u2022
+    Cable management, suspension accessories\n\u2022 2 x Allen & Heath SQ5 + GX4816
+    + Slink -card\n\u2022 cables and frames\n\u2022 Selection of microphones, wired
+    and wireless"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -4068,7 +4854,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 18.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4139,7 +4925,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2678439379240330147}
+  - {fileID: 1268305679760581299}
   m_Father: {fileID: 5475999281549410836}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4210,16 +4998,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8706617615269730628}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8796548971216703762}
+  m_Father: {fileID: 8673171922580645315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -233.421, y: -38.17}
+  m_AnchoredPosition: {x: -233.42108, y: -38.17}
   m_SizeDelta: {x: 466.843, y: 263.317}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &947720478858332056
@@ -4351,9 +5139,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7082781326879302678}
-  - {fileID: 6070752709960962486}
-  - {fileID: 7900924233921796924}
-  - {fileID: 6945195667442763238}
   m_Father: {fileID: 1564239253638169026}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4449,16 +5234,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9190457266055175787}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 104015187469537665}
+  m_Father: {fileID: 3153045045229376508}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -233.421, y: 133.25214}
+  m_AnchoredPosition: {x: -233.42108, y: 133.25214}
   m_SizeDelta: {x: 466.843, y: 79.528}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &167515457232336716
@@ -4489,7 +5274,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "S-Sali\n\n680 m\xB2"
+  m_text: "S Hall\n\n680 m\xB2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
   m_sharedMaterial: {fileID: 6045527295371083797, guid: 3174aeab2e59d4a4ea8521bfacd5cc22, type: 2}
@@ -4583,16 +5368,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9206972561643698131}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8796548971216703762}
+  m_Father: {fileID: 8673171922580645315}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -233.421, y: 133.25214}
+  m_AnchoredPosition: {x: -233.42108, y: 133.25214}
   m_SizeDelta: {x: 466.843, y: 79.528}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2422520246793947739

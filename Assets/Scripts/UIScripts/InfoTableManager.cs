@@ -16,7 +16,7 @@ public class InfoTableManager : MonoBehaviour
     public GameObject nextPageBtn;
     public GameObject prevPageBtn;
     [Header("Other")]
-    public GameObject mobileControls;
+    //public GameObject mobileControls;
 
     protected int textPage = 0;
     protected int mobileScene = 2;
@@ -37,10 +37,10 @@ public class InfoTableManager : MonoBehaviour
         closeButton.SetActive(false);
         nextPageBtn.SetActive(false);
         prevPageBtn.SetActive(false);
-        if (scene.buildIndex == mobileScene)
-        {
-            mobileControls.SetActive(true);
-        }
+        // if (scene.buildIndex == mobileScene)
+        // {
+        //     mobileControls.SetActive(true);
+        // }
     }
 
     /// <summary>

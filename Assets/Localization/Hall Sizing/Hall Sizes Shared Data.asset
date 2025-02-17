@@ -14,7 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: Hall Sizes
   m_TableCollectionNameGuidString: de9b1cc5b9fae28448f98c0b032b624f
-  m_Entries: []
+  m_Entries:
+  - m_Id: 90662175538774016
+    m_Key: L Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90665016273764352
+    m_Key: M Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90665821156507648
+    m_Key: M Hall (Alt)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90666480199106560
+    m_Key: S Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90667765430321152
+    m_Key: S Hall (Alt)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90668072763752448
+    m_Key: XS Hall
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

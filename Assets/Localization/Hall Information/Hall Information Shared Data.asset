@@ -14,7 +14,67 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: Hall Information
   m_TableCollectionNameGuidString: 7da106fd36c9f794c884a84253c471d2
-  m_Entries: []
+  m_Entries:
+  - m_Id: 90672891209547776
+    m_Key: XL Hall Basic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90673161268199424
+    m_Key: XL Hall Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90673577489956864
+    m_Key: L Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674386411814912
+    m_Key: L Hall Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90675066413350912
+    m_Key: L Hall Lights
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90675551245533184
+    m_Key: L Hall Stage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90675920017129472
+    m_Key: L Hall text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90676425690808320
+    m_Key: M Hall persons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90676889387892736
+    m_Key: M Hall Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90677488800071680
+    m_Key: S Hall Text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90677865704423424
+    m_Key: S Hall Persons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90678129236738048
+    m_Key: S Hall Tech
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90679609624723456
+    m_Key: XS Hall Persons
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90680155291090944
+    m_Key: XS Hall text
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90690042687488000
+    m_Key: Loading bay
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

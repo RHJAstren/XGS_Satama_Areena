@@ -17,7 +17,161 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: ba23c3d5deb2ec94e940075e039b4a01, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 90612703630819328
+    m_Localized: 'Move To:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90612816709255168
+    m_Localized: Hall Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90613003771019264
+    m_Localized: Scenes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90613063468548096
+    m_Localized: Seating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90613755008614400
+    m_Localized: Main Hall Split
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90613825007353856
+    m_Localized: Camera Angles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90614624114540544
+    m_Localized: Press Q to close this panel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90614939756888064
+    m_Localized: Enable Seating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90615506537381888
+    m_Localized: Enables the rising stand at the back of the main Hall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90615857353162752
+    m_Localized: Activate Middle Seating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90616225499807744
+    m_Localized: Activate Left Seating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90616371591610368
+    m_Localized: Activate Right Seating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90616612327882752
+    m_Localized: Main Hall Split
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90616861482123264
+    m_Localized: Allows the user to divide the main hall into smaller or bigger halls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90617091678109696
+    m_Localized: "XS\tM\tS    \n(Alternate Curtains)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90617521942396928
+    m_Localized: Camera Angles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90617651621888000
+    m_Localized: Change the camera angles to view the hall from different points
+      of view
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90617932132745216
+    m_Localized: XL Roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90618061359251456
+    m_Localized: M Roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90618185183494144
+    m_Localized: S Roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90618315865423872
+    m_Localized: XS Roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90618448329932800
+    m_Localized: Return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90619511414030336
+    m_Localized: Scenes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90619653504466944
+    m_Localized: Changes the scene to the users liking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90619843695181824
+    m_Localized: Info view
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90619975622819840
+    m_Localized: Concert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90620121165168640
+    m_Localized: Seminar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90620244607729664
+    m_Localized: Fair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90622690172174336
+    m_Localized: Press Any key to continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90623015239122944
+    m_Localized: 'Walk:
+
+
+      W - Forwards
+
+      S - Backwards
+
+      A - Left
+
+      D
+      - Right
+
+      Left Shift - Run'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90623339165220864
+    m_Localized: 'Camera Rotation:
+
+
+      Up Arrow - Up
+
+      Down Arrow - Down
+
+      Left
+      Arrow - Left
+
+      Right Arrow - Right'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90623839520522240
+    m_Localized: 'Mouse - Control camera
+
+
+      Spacebar - Open settings'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -16,8 +15,6 @@ public class UIController : MonoBehaviour
     [Header ("Control Settings Window")]
     public GameObject RightSettings;
     public GameObject RightSettingsAlternative;
-    public TextMeshProUGUI seatingText;
-    public GameObject StairSeatings;
     public bool isSettingsViewActive = false;
 
     [Header("Hall Settings Buttons")]
@@ -40,15 +37,10 @@ public class UIController : MonoBehaviour
     }
 
     public virtual void Update() {
-        if (Input.GetKeyDown(menuKey)/*Add WASD cloing the settings windw*/)
+        if (Input.GetKeyDown(menuKey)/*Add WASD closing the settings window*/)
             HandleMainMenuBtn();
         else if (Input.GetKeyDown(KeyCode.Q))
             RightSettingsAlternative.SetActive(false);
-
-        if (isSeatingActive) 
-            seatingText.text = "ON";
-        else
-            seatingText.text = "OFF"; 
     }
 
     /// <summary>
@@ -87,11 +79,6 @@ public class UIController : MonoBehaviour
     public void EnableMouse() {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-    }
-
-    public void HandleSeatings() {
-        isSeatingActive = !isSeatingActive;
-        StairSeatings.SetActive(isSeatingActive);
     }
 
     public void HandleMainSettingsWindow(int buttonInt) {

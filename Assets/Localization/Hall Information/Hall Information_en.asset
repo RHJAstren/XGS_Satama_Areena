@@ -17,7 +17,159 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 7da106fd36c9f794c884a84253c471d2, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 90672891209547776
+    m_Localized: "XL Hall\n\n1860 m\xB2\n\n3200 Persons (Standing)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90673161268199424
+    m_Localized: Once you take all of Satama Areena's halls into use, you get the
+      XL hall. At that point you have full access to the L hall and XS hall along
+      side the rising grandstand. It is the biggest and most impressive complete
+      space Satama Areena can offer. It allows for many different types of events.
+      The maximum capacity of the whole hall is around 3200 persons for standing
+      events. Be it a grand concert or a party conference, You will fit in this space!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90673577489956864
+    m_Localized: "2200 Persons:\tStanding\n\n1518 Persons: \tSitting in rows\n\n750
+      Persons: \tRound 10 person tables (x75)\n\n820 Persons:\tLong 8 person tables
+      (x102)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674386411814912
+    m_Localized: "Sound\n\n\u2022 18 x L-acoustics Kara linearray -speaker\r\n\u2022
+      6 x SB18\n\u2022 6 x L-acoustics Kiva -speaker\r\n\u2022 4 x L-acoustics SB28
+      sub -speaker\r\n\u2022 6 x Meyer MJF-210 monitor\r\n\u2022 L-acoustics power
+      amplifiers\n\u2022 Cable management, suspension accessories\n\u2022 2 x Allen
+      & Heath SQ5 + GX4816 + Slink -card\n\u2022 cables and frames\n\u2022 Selection
+      of microphones, wired and wireless\n\u2022 4 x Cat 6 E, audio cables"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90675066413350912
+    m_Localized: "Lights\n\n\u2022 8 x Varilite VL1000 -front lights\n\u2022 12 x
+      Tour Par LED -back lights\n\u2022 1 x Chamsys MQ80 light controller\n\u2022
+      Cables"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90675551245533184
+    m_Localized: "Stage (Fixed)\n\n\u2022 Nivtec 12 m x 9 m, 1 m high\r\n\u2022 ramp,
+      stairs\n\u2022 4 x Global Truss F34 truss lines\n\u2022 Molton-fabric\n\u2022
+      Stage front masking fabric"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90675920017129472
+    m_Localized: 'L Hall is Satama Areena''s main hall located on the first floor
+      of the building.
+
+
+      The main hall is capable of holding up to 1518 persons
+      seated in rows.
+
+
+      You are able to squeeze 820 seats from the long 8 person
+      tables. The circular 10 person tables can hold up to 750 people in total.
+
+
+      The
+      Hall also supports our stage of 12m in width and 9m in depth as well as the
+      house presenting technology.
+
+
+      For standing gigs, the L hall can be installed
+      with a 15 meter long bar table. It is also possible to make dedicated ''over
+      18'' areas.
+
+
+      You can easily find multiple LVIS wells and electrical
+      outlets from the floor of the L Hall. This allows for different kinds of fairs
+      to take place at our hall.
+
+
+
+      The L hall allows for an excellent experience
+      in business and entertainment. The day begins at our S Hall and by the evening,
+      the guests have moved to the other side of the curtains to the M hall to relax
+      and network to the taste of good food and the sounds of music.
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90676425690808320
+    m_Localized: "800 Persons:\tStanding\n\n400 Persons:\tSeated, rows of chairs\n\n320
+      Persons:\tRound 10 person tables (x32)\n\n424 Persons:\tLong 8 person tables
+      (x53)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90676889387892736
+    m_Localized: "The M hall can be formed on the first floor after the L hall is
+      divided into two with a sound proof temporary wall.\r\n\r\nThe hall contains
+      the houses presenting technology along side a 12m x 9m stage. \r\n\r\nEvent
+      examples:\r\n\r\nSeated dinner utilizing the long 8 person tables. Maximum
+      capacity of 424 persons.\r\nOr with the round 10 person tables. Maximum capacity
+      of 320 persons.\r\n\r\nFor concerts or conferences, a possibility house 400
+      persons in rows of chairs.\r\n\r\nThe stage and house presenting technology
+      support well for example a cocktail event or concert where the maximum capacity
+      for seated persons is 400.\r\n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90677488800071680
+    m_Localized: "The S hall can be formed on the first floor after the L hall is
+      divided into two with a sound proof temporary wall. The club sized S halls
+      max capacity is 725 persons sitting down or 600 persons standing up during
+      the event\r\n\r\nThe S hall works best for 250-700 person seminars, stand-up
+      gigs as well as for acoustic concerts. Show runners can also ask for extra
+      seats on the second floor after which the maximum capacity is raised to 950
+      persons.\r\n\r\nThe rising grandstands is a part of the hall. The stands can
+      be activated in three different slots. There are 250 seats per stand slot for
+      seminars. Seminars and concerts are supported with the S halls presenting technology.
+      There is also the possibility to add an 8m x 6m presenting stage or mattress.
+      \r\n\r\nFor different themed seated events, S hall can be transformed from
+      a 725 grandstand to a large 12m x 9m stage and L hall, with row upon row of
+      chairs.\r\n\r\nThe seminars can include a few hour long cruise of the Kotka
+      archipelago or an awe-inspiring rafting trip of Kymijoki. On the south-eastern
+      coast you can find a comprehensive list of activities. We will be more than
+      happy to help you experience them the best way possible!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90677865704423424
+    m_Localized: "600 Persons:\tStanding\n\n725 Persons:\tRising grandstands"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90678129236738048
+    m_Localized: "Presenting Technology\r\n\r\n\u2022 Projector + white screen\r\n\u2022
+      Size of the white screen: 5m width x 2,8m height. Picture area 4,88m x 2,74m\n\u2022
+      PA Lacoustics A10 4 x suspended on each side + 2 kpl SB28 on the floor.\r \nLA8
+      p\xE4\xE4tteill\xE4 and LR analog\n\u2022 Midas-mixer, stage box, cable management\r\n\u2022
+      D8 + motor raisers, controller and cable management\r\n\u2022 3 x F34 -truss
+      lines\r\n\u2022 8 x Tour Par LED-back lights\r\n\u2022 6 x front lights, Chamsys
+      -light controller"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90679609624723456
+    m_Localized: "308 Persons:\tSeated, rows of chairs\n\n250 Persons:\t Long 8 person
+      tables (x31)\n\n204 Persons:\t2 person lecture tables (x102, 120cm x 50cm)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90680155291090944
+    m_Localized: "The XS hall found on the second floor of Satama Areena is a collective
+      space.\r\n\r\nThe hall can be used for the show runners VIP box with a view
+      of the main stage. 8 person long tables, catering is provided on the premises,
+      toilet on the second floor is close, a private coat hanger and passes to the
+      L Hall. A VIP experience like no other! \r\n\r\nFor bigger conferences, the
+      hall can be equipped with a 6m x 4m stage and the necessary presenting accessories.
+      With the stage in the hall, it can hold up to 312 chairs in a row. One row
+      can hold 14 chairs.\r\n\r\nIn a classroom setting (2 person lecture tables),
+      the XS hall can hold up to 204 persons at best.\r\n\r\nThe hall can hold 31
+      of the long 8 person tables. Making for 248 seats. \r\n\r\nThe hall also holds
+      4x 75\" moveable TVs with an HDMI base. The hall can be equipped with sound
+      equipment as well as a projector and a white screen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90690042687488000
+    m_Localized: Loading bay
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

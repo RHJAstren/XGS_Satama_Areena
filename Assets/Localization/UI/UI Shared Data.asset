@@ -14,7 +14,135 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: UI
   m_TableCollectionNameGuidString: ba23c3d5deb2ec94e940075e039b4a01
-  m_Entries: []
+  m_Entries:
+  - m_Id: 90612703630819328
+    m_Key: Move
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90612816709255168
+    m_Key: Hall Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90613003771019264
+    m_Key: Scenes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90613063468548096
+    m_Key: Seats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90613755008614400
+    m_Key: Hall Split
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90613825007353856
+    m_Key: Cameras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90614624114540544
+    m_Key: Press Q
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90614939756888064
+    m_Key: Enable Seating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90615506537381888
+    m_Key: Explain Seating
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90615857353162752
+    m_Key: Activate Middle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90616225499807744
+    m_Key: Activate Left
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90616371591610368
+    m_Key: Activate Right
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90616612327882752
+    m_Key: Main Hall Split
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90616861482123264
+    m_Key: Hall Split Explanation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90617091678109696
+    m_Key: Alternate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90617521942396928
+    m_Key: Camera Angles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90617651621888000
+    m_Key: Camera Angles Explanation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90617932132745216
+    m_Key: XL Roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90618061359251456
+    m_Key: M Roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90618185183494144
+    m_Key: S Roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90618315865423872
+    m_Key: XS Roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90618448329932800
+    m_Key: Return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90619511414030336
+    m_Key: Scenes Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90619653504466944
+    m_Key: Scenes Explanation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90619843695181824
+    m_Key: Info view
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90619975622819840
+    m_Key: Concert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90620121165168640
+    m_Key: Seminar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90620244607729664
+    m_Key: Fair
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90622690172174336
+    m_Key: Press Any Key
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90623015239122944
+    m_Key: Walk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90623339165220864
+    m_Key: Camera Rotation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90623839520522240
+    m_Key: Additional Controls
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

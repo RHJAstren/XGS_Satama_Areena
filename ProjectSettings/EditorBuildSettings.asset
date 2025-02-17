@@ -11,9 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainDesktopScene/DesktopScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/MainMobileScene/MobileScene.unity
-    guid: 9001c4f57d32bd04586bfbd69ab9ff16
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 47aa67c8cdf9b294ea80b62ac5be7a57, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: 74f8b264a0386784ea0e553993a53c8f, type: 2}

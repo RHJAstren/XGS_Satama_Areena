@@ -17,7 +17,53 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 3c799641276d70748a082cdd90783d6e, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 98996831367561216
+    m_Localized: Emergency Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98997273120047104
+    m_Localized: Rentable 8-12 Person conference rooms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98997527601053696
+    m_Localized: Instructions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98998730376445952
+    m_Localized: 'Move To: Move to a hall of your choice
+
+
+      Scenes: Change the
+      scene to one of preset possibilities
+
+
+      Seating: Enable the rising grandstand
+      in parts'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98999184141418496
+    m_Localized: 'Main Hall Split: Split the exhibition hall to smaller or bigger
+      spaces to fit your needs
+
+
+      Camera Angles: Look at the exhibition hall
+      from other points-of-view'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98999391327453184
+    m_Localized: Contact
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98999527520698368
+    m_Localized: "Marjukka Relander\n\n---Property of XGS---\n\nProgramming: Roope
+      Astr\xE9n\n\n3D Modelling: Daria Khilchuck\n\nUI and modelling: Viktoriia Gorovaia"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99003980965576704
+    m_Localized: Dishes
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
