@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,14 +8,20 @@ public class SceneManager : MonoBehaviour
     [SerializeField] private Button InfoScene;
     [SerializeField] private Button ConcertScene;
     [SerializeField] private Button SeminarScene;
-    [SerializeField] private Button ExhibitionScene;
+    [SerializeField] private Button FairScene;
 
-    [Header ("Other variables")]
+    [Header ("Scenes")]
     [SerializeField] private GameObject HallInformation;
     [SerializeField] private GameObject Charts;
     [SerializeField] private GameObject Concert;
-    [SerializeField] private GameObject Ceremony;
-    [SerializeField] private GameObject Exhibition;
+    [SerializeField] private GameObject Seminar;
+    [SerializeField] private GameObject Fair;
+
+    [Header ("Additional")]
+    [SerializeField] private GameObject Chairs;
+    [SerializeField] private GameObject Tables;
+
+    public TextMeshProUGUI fairText;
 
     private void Start()
     {
@@ -22,7 +29,7 @@ public class SceneManager : MonoBehaviour
         InfoScene.onClick.AddListener(HandleInfoScene);
         ConcertScene.onClick.AddListener(HandleConcertScene);
         SeminarScene.onClick.AddListener(HandleCeremonyScene);
-        ExhibitionScene.onClick.AddListener(HandleExhibitionScene);
+        FairScene.onClick.AddListener(HandleFairScene);
     }
 
     public void HandleInfoScene()
@@ -31,8 +38,11 @@ public class SceneManager : MonoBehaviour
         HallInformation.SetActive(true);
         Charts.SetActive(true);
         Concert.SetActive(false);
-        Ceremony.SetActive(false);
-        Exhibition.SetActive(false);
+        Seminar.SetActive(false);
+        Fair.SetActive(false);
+        Chairs.SetActive(true);
+        Tables.SetActive(false);
+        fairText.text = "OFF";
     }
 
     public void HandleConcertScene()
@@ -41,8 +51,11 @@ public class SceneManager : MonoBehaviour
         HallInformation.SetActive(false);
         Charts.SetActive(false);
         Concert.SetActive(true);
-        Ceremony.SetActive(false);
-        Exhibition.SetActive(false);
+        Seminar.SetActive(false);
+        Fair.SetActive(false);
+        Chairs.SetActive(true);
+        Tables.SetActive(false);
+        fairText.text = "OFF";
     }
 
     public void HandleCeremonyScene()
@@ -51,17 +64,24 @@ public class SceneManager : MonoBehaviour
         HallInformation.SetActive(false);
         Charts.SetActive(false);
         Concert.SetActive(false);
-        Ceremony.SetActive(true);
-        Exhibition.SetActive(false);
+        Seminar.SetActive(true);
     }
 
-    public void HandleExhibitionScene()
+    public void HandleFairScene()
     {
         Debug.Log("Exhibition Scene Enabled");
         HallInformation.SetActive(false);
         Charts.SetActive(false);
         Concert.SetActive(false);
-        Ceremony.SetActive(false);
-        Exhibition.SetActive(true);
+        Fair.SetActive(true);
+        if (Chairs.activeInHierarchy){
+            Tables.SetActive(true);
+            Chairs.SetActive(false);
+            fairText.text = "Tables";
+        }else{
+            Tables.SetActive(false);
+            Chairs.SetActive(true);
+            fairText.text = "Chairs";
+        }
     }
 }

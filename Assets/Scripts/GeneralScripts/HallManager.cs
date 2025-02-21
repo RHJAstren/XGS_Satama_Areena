@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class HallManager : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class HallManager : MonoBehaviour
     [SerializeField] private GameObject S_HallInformation_Alternative;
     [SerializeField] private GameObject XS_HallInformation;
 
+    [Header ("Other")]
+    public TextMeshProUGUI maxCapacity;
+
     private bool mediumHallCurtainIsActive = true;
     private bool smallHallCurtainIsActive = true;
 
@@ -45,7 +49,7 @@ public class HallManager : MonoBehaviour
             S_HallInformation,
             S_HallInformation_Alternative,
             XS_HallInformation
-        }, new[] { false, false, false, true, false, false, false, false, false, false }, "XL Hall"));
+        }, new[] { false, false, false, true, false, false, false, false, false, false }, "XL Hall", "XL: 3200"));
 
         largeAndExtraSmallHall.onClick.AddListener(() => HandleHall(new[] 
         {
@@ -59,7 +63,7 @@ public class HallManager : MonoBehaviour
             S_HallInformation,
             S_HallInformation_Alternative,
             XS_HallInformation
-        }, new[] { false, false, true, false, true, false, false, false, false, true }, "XS & L Hall"));
+        }, new[] { false, false, true, false, true, false, false, false, false, true }, "XS & L Hall", "L: 2200\tXS: 308"));
 
         multiHall.onClick.AddListener(() => HandleHall(new[] 
         {
@@ -73,7 +77,7 @@ public class HallManager : MonoBehaviour
             S_HallInformation,
             S_HallInformation_Alternative,
             XS_HallInformation
-        }, new[] { true, true, true, false, false, true, false, true, false, true }, "XS, S & M Hall"));
+        }, new[] { true, true, true, false, false, true, false, true, false, true }, "XS, S & M Hall", "M: 800\tS: 725\tXS: 308"));
         
         // Alternate Buttons Listeners
         multiHallAlt.onClick.AddListener(ToggleCurtains);
@@ -86,11 +90,12 @@ public class HallManager : MonoBehaviour
     /// <param name="states"> A list of boolean states for the GameObjects. 
     /// The key positions refer to each key position in the curtains list </param>
     /// <param name="hallType"> Name of the Hall tat has been activated in the project </param>
-    private void HandleHall(GameObject[] objects, bool[] states, string hallType)
+    private void HandleHall(GameObject[] objects, bool[] states, string hallType, string MaxCap)
     {
         for (int i = 0; i < objects.Length; i++)
         {
             objects[i].SetActive(states[i]);
+            maxCapacity.text = MaxCap;
         }
         Debug.Log(hallType + " activated");
     }
@@ -104,6 +109,7 @@ public class HallManager : MonoBehaviour
     /// </summary>
     private void ToggleCurtains()
     {
+        maxCapacity.text = "M: 800\tS: 725\tXS: 308";
         curtainExtraSmallHall.SetActive(true);
         XL_HallInformation.SetActive(false);
         L_HallInformation.SetActive(false);

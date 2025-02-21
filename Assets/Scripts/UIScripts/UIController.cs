@@ -37,8 +37,9 @@ public class UIController : MonoBehaviour
     }
 
     public virtual void Update() {
-        if (Input.GetKeyDown(menuKey)/*Add WASD closing the settings window*/)
+        if (Input.GetKeyDown(menuKey)/*Add WASD closing the settings window*/){
             HandleMainMenuBtn();
+        }
         else if (Input.GetKeyDown(KeyCode.Q))
             RightSettingsAlternative.SetActive(false);
     }

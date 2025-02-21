@@ -58,4 +58,3 @@ MonoBehaviour:
   closeButton: {fileID: 0}
   nextPageBtn: {fileID: 0}
   prevPageBtn: {fileID: 0}
-  mobileControls: {fileID: 0}

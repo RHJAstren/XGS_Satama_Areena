@@ -143,6 +143,10 @@ MonoBehaviour:
     m_Key: Additional Controls
     m_Metadata:
       m_Items: []
+  - m_Id: 91040545645416448
+    m_Key: MaxCap
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

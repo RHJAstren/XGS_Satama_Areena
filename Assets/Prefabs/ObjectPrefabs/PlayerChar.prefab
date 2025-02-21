@@ -250,7 +250,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4169623871935214607}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -385,8 +385,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 4036925974667120198}
   speed: 6
-  joystick: {fileID: 0}
-  mobileControls: {fileID: 0}
   groundCheck: {fileID: 739260753811064173}
   groundDistance: 0.05
   groundMask:

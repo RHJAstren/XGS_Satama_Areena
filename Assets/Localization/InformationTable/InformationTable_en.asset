@@ -64,6 +64,10 @@ MonoBehaviour:
     m_Localized: Dishes
     m_Metadata:
       m_Items: []
+  - m_Id: 99354609337389056
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

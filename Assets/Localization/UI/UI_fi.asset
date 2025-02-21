@@ -149,6 +149,10 @@ MonoBehaviour:
     m_Localized: "Hiiri - Hallinnoi kameraa\n\nV\xE4lily\xF6nti - Avaa asetukset"
     m_Metadata:
       m_Items: []
+  - m_Id: 91040545645416448
+    m_Localized: 'Maksimikapasiteetti:'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
