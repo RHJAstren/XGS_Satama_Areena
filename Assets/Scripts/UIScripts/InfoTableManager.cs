@@ -8,6 +8,7 @@ public class InfoTableManager : MonoBehaviour
     [SerializeField] private UIController uiController;
     public PlayerController playerController;
     public GameObject Menu_UI;
+    public GameObject MobileJoystick;
     [Header("Text Fields")]
     public GameObject[] textTitles;
     public GameObject[] textFields;
@@ -15,8 +16,6 @@ public class InfoTableManager : MonoBehaviour
     public GameObject closeButton;
     public GameObject nextPageBtn;
     public GameObject prevPageBtn;
-    [Header("Other")]
-    //public GameObject mobileControls;
 
     protected int textPage = 0;
     protected int mobileScene = 2;
@@ -37,10 +36,10 @@ public class InfoTableManager : MonoBehaviour
         closeButton.SetActive(false);
         nextPageBtn.SetActive(false);
         prevPageBtn.SetActive(false);
-        // if (scene.buildIndex == mobileScene)
-        // {
-        //     mobileControls.SetActive(true);
-        // }
+        if (scene.buildIndex == mobileScene)
+        {
+            MobileJoystick.SetActive(true);
+        }
     }
 
     /// <summary>

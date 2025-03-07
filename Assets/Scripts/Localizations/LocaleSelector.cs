@@ -26,6 +26,10 @@ public class LocaleSelector : MonoBehaviour
     /// </summary>
     /// <param name="_localeID">
     /// A parameter that can be determined in Unity Editor and Localization tab to change the language of set text fields.
+    /// 0 - English
+    /// 1 - Finnish
+    /// 2 - Russian
+    /// 3 - Swedish
     /// </param>
     /// <returns></returns>
     IEnumerator SetLocale(int _localeID)

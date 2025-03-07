@@ -16,6 +16,12 @@ public class PlayerController : MonoBehaviour
     bool isGrounded;
     public bool isSettingsViewActive = false;
 
+    void Start()
+    {
+        if (controller == null)
+            controller = GetComponent<CharacterController>();
+    }
+
     protected virtual void Update(){
         Controls();
         HandlePhysicsInGame();

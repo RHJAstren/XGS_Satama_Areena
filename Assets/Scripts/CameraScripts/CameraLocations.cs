@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class CameraLocations : MonoBehaviour
 {
@@ -13,15 +12,10 @@ public class CameraLocations : MonoBehaviour
     [Header("Main Camera")]
     [SerializeField] private Camera mainCamera;
 
-    Scene scene;
-
     private void Start() {
-        scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
         for (int i = 0; i < CameraBtns.Length; i++) {
             int cameraInt = i;
             CameraBtns[i].onClick.AddListener(() => changeCameraLocation(cameraInt));
-            if (scene.buildIndex != 1)
-                CameraBtns[i].interactable = false;
         }
     }
 

@@ -1,9 +1,18 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIController_Mobile : UIController
 {
-    [Header("Control Settings Window")]
-    public GameObject LeftSettings;
+    public Button[] moreOptions;
+    public GameObject[] settingsPage;
+
+    protected override void Start()
+    {
+        base.Start();
+        moreOptions[0].onClick.AddListener(() => SetPages(new[]{settingsPage[0], settingsPage[1]}));
+        moreOptions[1].onClick.AddListener(() => SetPages(new[]{settingsPage[1], settingsPage[0]}));
+        EnableMouse();
+    }
 
     public override void Update()
     {
@@ -25,11 +34,8 @@ public class UIController_Mobile : UIController
         if (scene.buildIndex != desktopScene)
             Settings.SetActive(isSettingsViewActive);
 
-        if (isSettingsViewActive)
-            EnableMouse();
-        else {
-            DisableMouse();
-
+        if (!isSettingsViewActive)
+        {
             if (scene.buildIndex <= desktopScene)
             {
                 bool newState = !playerCamera.enabled;
@@ -38,7 +44,11 @@ public class UIController_Mobile : UIController
 
             RightSettings.SetActive(true);
             RightSettingsAlternative.SetActive(false);
-            LeftSettings.SetActive(true);
         }
+    }
+
+    public void SetPages(GameObject[] Page){
+        Page[0].SetActive(true);
+        Page[1].SetActive(false);
     }
 }

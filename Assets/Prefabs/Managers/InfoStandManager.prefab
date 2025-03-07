@@ -48,6 +48,7 @@ MonoBehaviour:
   uiController: {fileID: 0}
   playerController: {fileID: 0}
   Menu_UI: {fileID: 0}
+  MobileJoystick: {fileID: 7352770780173089489, guid: 24195d80bdc0d5f47bdddd1663d65ca2, type: 3}
   textTitles:
   - {fileID: 0}
   - {fileID: 0}

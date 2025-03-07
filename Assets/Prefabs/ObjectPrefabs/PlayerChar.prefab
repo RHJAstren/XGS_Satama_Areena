@@ -42,8 +42,8 @@ GameObject:
   - component: {fileID: 4348735754654505256}
   - component: {fileID: 1398665182229877389}
   - component: {fileID: 5777782067866614937}
-  - component: {fileID: 6723970580576823303}
   - component: {fileID: 3906320668656797522}
+  - component: {fileID: 4533327485359612599}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -125,22 +125,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3340959698018566896}
   m_Enabled: 1
---- !u!114 &6723970580576823303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3340959698018566896}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b47e5b71b5e4e20468916e85f728b6dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mouseSensitivity: 150
-  keyRotationSpeed: 75
-  playerBody: {fileID: 7593550574155994880}
-  rotSpeed: 0.35
 --- !u!114 &3906320668656797522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,6 +185,22 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+--- !u!114 &4533327485359612599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3340959698018566896}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b47e5b71b5e4e20468916e85f728b6dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSensitivity: 150
+  keyRotationSpeed: 75
+  playerBody: {fileID: 7593550574155994880}
+  rotSpeed: 0.35
 --- !u!1 &4169623871935214607
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7593550574155994880}
   - component: {fileID: 4036925974667120198}
-  - component: {fileID: 1747684783275411594}
+  - component: {fileID: 9056030740047845639}
   m_Layer: 0
   m_Name: PlayerChar
   m_TagString: Untagged
@@ -371,14 +371,14 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1747684783275411594
+--- !u!114 &9056030740047845639
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5619961989935567103}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bb43a5b16f1307498b4e6565eb4f5d0, type: 3}
   m_Name: 

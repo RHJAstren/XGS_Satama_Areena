@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class PlayerCam_Mobile : PlayerCam
 {
-    private Touch initTouch = new Touch();
-    private float rotX = 0f;
-    private float rotY = 0f;
-    private Vector3 origRot;
-    private float screenDivide = Screen.width / 2;// - (Screen.width * 0.1f);
-    private int dir = -1;
-
+    protected Touch initTouch = new Touch();
+    protected float rotX = 0f;
+    protected float rotY = 0f;
+    protected Vector3 origRot;
+    protected float screenDivide = Screen.width / 2;// - (Screen.width * 0.1f);
+    protected int dir = -1;
+    
     private void Start(){
         origRot = playerBody.transform.eulerAngles;
         rotX = origRot.x;
@@ -41,7 +41,7 @@ public class PlayerCam_Mobile : PlayerCam
                         rotY += deltaX * Time.deltaTime * rotSpeed * dir;
 
                         rotX = Mathf.Clamp(rotX, -90f, 90f);
-
+                        
                         playerBody.transform.eulerAngles = new Vector3(rotX, rotY, 0f);
                     }
                     else if (touch.phase == TouchPhase.Ended){

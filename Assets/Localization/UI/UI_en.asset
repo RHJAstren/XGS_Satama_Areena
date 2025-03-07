@@ -176,6 +176,14 @@ MonoBehaviour:
     m_Localized: 'Max Capacity:'
     m_Metadata:
       m_Items: []
+  - m_Id: 97197818834157568
+    m_Localized: Desktop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97197947423129600
+    m_Localized: Mobile (Android)
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -26,7 +26,7 @@ public class UIController : MonoBehaviour
     protected  Scene scene;
     protected int desktopScene = 1;
 
-    public void Start() { 
+    protected virtual void Start() { 
         MenuBtn.onClick.AddListener(HandleMainMenuBtn); 
         scene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
 

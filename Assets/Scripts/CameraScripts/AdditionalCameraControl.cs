@@ -1,18 +1,16 @@
 using UnityEngine;
 
-public class AdditionalCameraControl : MonoBehaviour
+public class AdditionalCameraControl : PlayerCam
 {
-    private float sensitivity = 100f;
-
     public PlayerController playerController;
 
-    private void Update() {
+    protected override void Update() {
         if (playerController.isSettingsViewActive == true)
             return;
         else { 
             if (gameObject.activeInHierarchy) {
-                Controls("Mouse X", "Mouse Y", sensitivity);
-                Controls("Rotate X", "Rotate Y", sensitivity);
+                Controls("Mouse X", "Mouse Y", mouseSensitivity);
+                Controls("Rotate X", "Rotate Y", mouseSensitivity);
             }
         }
     }

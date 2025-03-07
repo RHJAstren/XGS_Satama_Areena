@@ -153,6 +153,14 @@ MonoBehaviour:
     m_Localized: 'Maksimikapasiteetti:'
     m_Metadata:
       m_Items: []
+  - m_Id: 97197818834157568
+    m_Localized: Tietokone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97197947423129600
+    m_Localized: Mobiili (Android)
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
