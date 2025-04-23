@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// A class that controls the player camera. This is the base class for all camera controls.
+/// </summary>
 public class PlayerCam : MonoBehaviour
 {
     [Header ("Sensitivity")]
@@ -21,7 +24,7 @@ public class PlayerCam : MonoBehaviour
     }
 
     /// <summary>
-    /// A Method that controls the camera with the keyboard
+    /// A Method that controls the camera with the keyboard and/or mouse.
     /// </summary>
     /// <param name="xAxis"> A string variable that takes a base variable fromt the project settings -> input page. For the x axis. </param>
     /// <param name="yAxis"> A string variable that takes a base variable fromt the project settings -> input page. For the y axis. </param>

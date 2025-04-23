@@ -2,6 +2,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Script to contorl the Hall scenes in the project.
+/// </summary>
 public class SceneManager : MonoBehaviour
 {
     [Header ("Scene management buttons")]
@@ -18,7 +21,7 @@ public class SceneManager : MonoBehaviour
     [SerializeField] private GameObject Fair;
 
     [Header ("Additional")]
-    [SerializeField] private GameObject Chairs;
+    [SerializeField] private GameObject[] Chairs;
     [SerializeField] private GameObject Tables;
 
     public TextMeshProUGUI fairText;
@@ -28,10 +31,13 @@ public class SceneManager : MonoBehaviour
         // PC Listeners
         InfoScene.onClick.AddListener(HandleInfoScene);
         ConcertScene.onClick.AddListener(HandleConcertScene);
-        SeminarScene.onClick.AddListener(HandleCeremonyScene);
+        SeminarScene.onClick.AddListener(HandleSeminarScene);
         FairScene.onClick.AddListener(HandleFairScene);
     }
 
+    /// <summary>
+    /// All the HandleScene scripts can be refactored.
+    /// </summary>
     public void HandleInfoScene()
     {
         Debug.Log("Empty Scene Enabled");
@@ -40,7 +46,9 @@ public class SceneManager : MonoBehaviour
         Concert.SetActive(false);
         Seminar.SetActive(false);
         Fair.SetActive(false);
-        Chairs.SetActive(true);
+        foreach (var set in Chairs){
+            set.SetActive(false);
+        }
         Tables.SetActive(false);
         fairText.text = "OFF";
     }
@@ -53,12 +61,13 @@ public class SceneManager : MonoBehaviour
         Concert.SetActive(true);
         Seminar.SetActive(false);
         Fair.SetActive(false);
-        Chairs.SetActive(true);
+        Chairs[0].SetActive(false);
+        Chairs[1].SetActive(true);
         Tables.SetActive(false);
         fairText.text = "OFF";
     }
 
-    public void HandleCeremonyScene()
+    public void HandleSeminarScene()
     {
         Debug.Log("Seminar Scene Enabled");
         HallInformation.SetActive(false);
@@ -74,14 +83,21 @@ public class SceneManager : MonoBehaviour
         Charts.SetActive(false);
         Concert.SetActive(false);
         Fair.SetActive(true);
-        if (Chairs.activeInHierarchy){
-            Tables.SetActive(true);
-            Chairs.SetActive(false);
-            fairText.text = "Tables";
-        }else{
+        if (Tables.activeInHierarchy){
             Tables.SetActive(false);
-            Chairs.SetActive(true);
+            if (Seminar.activeInHierarchy){
+                Chairs[0].SetActive(true);
+                Chairs[1].SetActive(false);
+            }else if (Concert.activeInHierarchy){
+                Chairs[0].SetActive(false);
+                Chairs[1].SetActive(true);
+            }
             fairText.text = "Chairs";
+        }else{
+            Tables.SetActive(true);
+            Chairs[0].SetActive(false);
+            Chairs[1].SetActive(false);
+            fairText.text = "Tables";
         }
     }
 }

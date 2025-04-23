@@ -1,1 +1,0 @@
-public class InfoTableManager_Mobile : InfoTableManager { }

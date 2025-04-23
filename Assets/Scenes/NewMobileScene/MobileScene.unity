@@ -959,6 +959,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1221636370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3825772325049920765, guid: 6b9cc0b7766efe9498266e747d511a7b, type: 3}
+  m_PrefabInstance: {fileID: 6750924772082106716}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1273342963 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1103665366851782091, guid: 4da0ab7650534554ca525ea8ee022ada, type: 3}
@@ -1906,6 +1911,18 @@ PrefabInstance:
       propertyPath: HallInformation
       value: 
       objectReference: {fileID: 457343414}
+    - target: {fileID: 5452771218680698474, guid: c561b49eabbd271418dd5a919075de8a, type: 3}
+      propertyPath: Chairs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452771218680698474, guid: c561b49eabbd271418dd5a919075de8a, type: 3}
+      propertyPath: Chairs.Array.data[0]
+      value: 
+      objectReference: {fileID: 1540014436}
+    - target: {fileID: 5452771218680698474, guid: c561b49eabbd271418dd5a919075de8a, type: 3}
+      propertyPath: Chairs.Array.data[1]
+      value: 
+      objectReference: {fileID: 1221636370}
     - target: {fileID: 6304248307289288812, guid: c561b49eabbd271418dd5a919075de8a, type: 3}
       propertyPath: playerCharacter
       value: 

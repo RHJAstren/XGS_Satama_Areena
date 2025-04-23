@@ -2,6 +2,9 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
 
+/// <summary>
+/// Used to change the localization. Uses the Unity Localizaion package.
+/// </summary>
 public class LocaleSelector : MonoBehaviour
 {
     private bool activeLocale = false;

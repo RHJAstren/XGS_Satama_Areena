@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// Main script for the player controller.
+/// </summary>
 public class PlayerController : MonoBehaviour
 {
     [Header ("Character Controller")]

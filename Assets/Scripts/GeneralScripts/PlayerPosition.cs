@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Script to change the player positions in the desktop and mobile scenes.
+/// </summary>
 public class PlayerPosition : MonoBehaviour
 {
     [Header ("Move Player Buttons")]

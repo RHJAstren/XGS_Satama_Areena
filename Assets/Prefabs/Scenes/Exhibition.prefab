@@ -4672,11 +4672,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4911668811099526888, guid: 1a82c4b01f2980144b49fcbe3bd4752b, type: 3}
       propertyPath: m_Name
-      value: SeatingHall
+      value: SeatingHall_Seminar
       objectReference: {fileID: 0}
     - target: {fileID: 4911668811099526888, guid: 1a82c4b01f2980144b49fcbe3bd4752b, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4911668811099526888, guid: 1a82c4b01f2980144b49fcbe3bd4752b, type: 3}
       propertyPath: m_StaticEditorFlags

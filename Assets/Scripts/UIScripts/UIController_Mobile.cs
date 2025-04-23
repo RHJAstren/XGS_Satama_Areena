@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Mobile Menu controller. Inherited from the main UIController script.
+/// </summary>
 public class UIController_Mobile : UIController
 {
     public Button[] moreOptions;

@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// The opening table controller. 
+/// </summary>
 public class InfoTableManager : MonoBehaviour
 {
     [Header("Close Button")]

@@ -1,12 +1,15 @@
 using UnityEngine;
 
+/// <summary>
+/// Mobile camera controls with touch controls. Inherited from the PlayerCam class.
+/// </summary>
 public class PlayerCam_Mobile : PlayerCam
 {
     protected Touch initTouch = new Touch();
     protected float rotX = 0f;
     protected float rotY = 0f;
     protected Vector3 origRot;
-    protected float screenDivide = Screen.width / 2;// - (Screen.width * 0.1f);
+    protected float screenDivide = Screen.width / 2 - (Screen.width * 0.25f);
     protected int dir = -1;
     
     private void Start(){
@@ -20,7 +23,7 @@ public class PlayerCam_Mobile : PlayerCam
     }
 
     /// <summary>
-    /// A method that controls the camera with touch controls
+    /// A method that controls the camera with touch controls.
     /// </summary>
     /// <param name="screenWidth"> A base width that divied the screen in half and allows for use of either side for controlling </param>
     void MobileControls(float screenWidth) {

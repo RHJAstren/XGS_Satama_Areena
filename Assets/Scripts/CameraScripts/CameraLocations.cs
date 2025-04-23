@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// A script that is used to change the camera angle of the player.
+/// </summary>
 public class CameraLocations : MonoBehaviour
 {
     [Header("Camera locations")]
@@ -19,6 +22,10 @@ public class CameraLocations : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Changes which camera in the scene is active.
+    /// </summary>
+    /// <param name="cameraInt">Taken from a list of cameras. Controlled in the Unity Editor</param>
     public void changeCameraLocation(int cameraInt) {
         CameraAngles[cameraInt].gameObject.SetActive(true);
         mainCamera.gameObject.SetActive(false);
@@ -30,6 +37,9 @@ public class CameraLocations : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Returns the camera to the player camera in the scene.
+    /// </summary>
     public void ReturnCamera() {
         foreach (Transform camera in CameraAngles) {
             camera.gameObject.SetActive(false);

@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+/// <summary>
+/// Script to control the Hall settings and curtains.
+/// </summary>
 public class HallManager : MonoBehaviour
 {
     [Header ("Hall Control Buttons")]

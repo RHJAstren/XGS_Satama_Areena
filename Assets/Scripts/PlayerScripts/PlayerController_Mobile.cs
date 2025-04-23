@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
+/// <summary>
+/// The mobile player controller that uses the Unity *new* Input system with a joystick and touch.
+/// </summary>
 public class PlayerController_Mobile : PlayerController
 {   
     [Header ("Mobile Variables")]
@@ -22,6 +25,9 @@ public class PlayerController_Mobile : PlayerController
         TouchSimulation.Enable();
     }
 
+    /// <summary>
+    /// The Joystick control method.
+    /// </summary>
     void JoystickInput(){
         if (Touch.activeTouches.Count > 0){
             foreach (var touch in Touch.activeTouches){

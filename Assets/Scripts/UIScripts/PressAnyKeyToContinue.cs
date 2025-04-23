@@ -1,6 +1,9 @@
 using UnityEngine;
 using TMPro;
 
+/// <summary>
+/// Simple script to close the info screens entirely.
+/// </summary>
 public class PressAnyKeyToContinue : MonoBehaviour
 {
     [Header ("Pulsating text component")]

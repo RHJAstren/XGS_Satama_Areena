@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Script to control the Menu in the desktop scene.
+/// </summary>
 public class UIController : MonoBehaviour
 {
     [Header ("Control Buttons")]
@@ -82,6 +85,10 @@ public class UIController : MonoBehaviour
         Cursor.visible = true;
     }
 
+    /// <summary>
+    /// Controls the alternating settings window to activate the selected settings.
+    /// </summary>
+    /// <param name="buttonInt"></param>
     public void HandleMainSettingsWindow(int buttonInt) {
         RightSettingsAlternative.SetActive(true);
         hallSetting[buttonInt].SetActive(true);

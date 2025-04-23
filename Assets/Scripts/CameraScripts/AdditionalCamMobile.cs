@@ -1,12 +1,16 @@
 using UnityEngine;
 
+
+/// <summary>
+/// A class that controls the additional cameras in the scene. Inherited from the PlayerCam class.
+/// </summary>
 public class AdditionalCamMobile : PlayerCam
 {
     protected Touch initTouch = new Touch();
     protected float rotX = 0f;
     protected float rotY = 0f;
     protected Vector3 origRot;
-    protected float screenDivide = Screen.width / 2;// - (Screen.width * 0.1f);
+    protected float screenDivide = Screen.width / 2 - (Screen.width * 0.25f);
     protected int dir = -1;
     public Transform cameraTransform;
 
@@ -21,7 +25,7 @@ public class AdditionalCamMobile : PlayerCam
     }
 
     /// <summary>
-    /// A method that controls the camera with touch controls
+    /// A method that controls the additinal cameras in the scene with touch controls.
     /// </summary>
     /// <param name="screenWidth"> A base width that divied the screen in half and allows for use of either side for controlling </param>
     void MobileControls(float screenWidth) {

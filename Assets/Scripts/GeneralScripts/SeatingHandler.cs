@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Script to control the rising stands in the main hall S side.
+/// </summary>
 public class SeatingHandler : MonoBehaviour
 {
     public Button[] toggleSwitches;
@@ -14,6 +17,11 @@ public class SeatingHandler : MonoBehaviour
         toggleSwitches[2].onClick.AddListener(() => SetActive(risingStands[2], checkmarks[2]));
     }
 
+    /// <summary>
+    /// Controls which stand is active in the scene.
+    /// </summary>
+    /// <param name="stand">Which stand from the list of GameObjects.</param>
+    /// <param name="mark">The checkmark that is used with the toggle controls.</param>
     public void SetActive(GameObject stand, GameObject mark){
         if (stand.activeInHierarchy){
             stand.SetActive(false);

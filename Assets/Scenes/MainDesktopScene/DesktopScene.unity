@@ -895,6 +895,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4389472990047540693, guid: 8c2e8ed128ccc2d4ab70686cfca6c070, type: 3}
   m_PrefabInstance: {fileID: 6989044646922933135}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1614750815 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3825772325049920765, guid: 6b9cc0b7766efe9498266e747d511a7b, type: 3}
+  m_PrefabInstance: {fileID: 6750924772082106716}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1619440470 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5829870022130230313, guid: 8181bbcef8333b546b2a72efb0ee816c, type: 3}
@@ -1581,6 +1586,18 @@ PrefabInstance:
       propertyPath: HallInformation
       value: 
       objectReference: {fileID: 457343414}
+    - target: {fileID: 5452771218680698474, guid: c561b49eabbd271418dd5a919075de8a, type: 3}
+      propertyPath: Chairs.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452771218680698474, guid: c561b49eabbd271418dd5a919075de8a, type: 3}
+      propertyPath: Chairs.Array.data[0]
+      value: 
+      objectReference: {fileID: 1540014436}
+    - target: {fileID: 5452771218680698474, guid: c561b49eabbd271418dd5a919075de8a, type: 3}
+      propertyPath: Chairs.Array.data[1]
+      value: 
+      objectReference: {fileID: 1614750815}
     - target: {fileID: 6304248307289288812, guid: c561b49eabbd271418dd5a919075de8a, type: 3}
       propertyPath: playerCharacter
       value: 
@@ -12168,10 +12185,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Seminar
       objectReference: {fileID: 0}
-    - target: {fileID: 356329100864351195, guid: 54e22b89d56a4e8448e5b9236a1e607a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5044318995736941601, guid: 54e22b89d56a4e8448e5b9236a1e607a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -12999,10 +13012,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1365188829591046033, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3520019577665285145, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3578265471702896202, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 4006165762603602601, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
       propertyPath: playerCamera
       value: 
       objectReference: {fileID: 5289944324401436880}
+    - target: {fileID: 4113076188027651566, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 4338667672794099614, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
       propertyPath: mainCamera
       value: 
@@ -13015,9 +13044,29 @@ PrefabInstance:
       propertyPath: CameraAngles.Array.data[1]
       value: 
       objectReference: {fileID: 1636325016}
+    - target: {fileID: 5680767842257414445, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5863295565718891746, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 5962318412513743073, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
       propertyPath: m_Name
       value: Menu_UI_PC
+      objectReference: {fileID: 0}
+    - target: {fileID: 5962318412513743073, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6145166290259934010, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 6882922925545904966, guid: 51a8a3c13e2821747826861a7a379562, type: 3}
+      propertyPath: m_fontStyle
+      value: 16
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

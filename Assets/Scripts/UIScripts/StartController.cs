@@ -3,6 +3,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Script to control the starting screen with the locale and device selectors.
+/// </summary>
 public class StartController : MonoBehaviour
 {
     [Header ("UI Elements")]
@@ -22,6 +25,15 @@ public class StartController : MonoBehaviour
         StartCoroutine(LoadAsync(scene));
     }
 
+    /// <summary>
+    /// Loads the scene.
+    /// </summary>
+    /// <param name="scene">The build index of the scene that will be opened
+    /// 0 - Start Scene
+    /// 1 - Desktop Scene
+    /// 2 - Mobile Scene
+    /// </param>
+    /// <returns></returns>
     IEnumerator LoadAsync(int scene)
     {
         loadingNumber.text = "0%";
